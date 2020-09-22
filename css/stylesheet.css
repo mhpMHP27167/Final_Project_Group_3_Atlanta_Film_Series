@@ -1,0 +1,145 @@
+/* Start Page Styles */
+body{
+    margin: 0;
+}
+
+h1 h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+h3 h4{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: lighter;
+}
+
+p{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: lighter; 
+}
+/* End Pages Styles */
+
+/* Start Navigation Styling */
+nav {
+    float: right;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    background: #ffffff;
+    color: #2E2E3A;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+nav a:hover {
+    background-color: #FBAE56;
+    color: #2E2E3A;
+}
+
+nav a:not(:only-child):after {
+    padding-left: 4px;
+    content: ' ▾'
+}
+
+.nav-dropdown {
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
+.nav-dropdown li {
+    min-width: 190px;
+}
+
+.nav-dropdown a {
+    padding: 15px;
+    line-height: 20px;
+}
+
+.nav-mobile{
+    /*display: none;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    height: 70px;
+    width: 70px;
+}
+/* End Navigation Styling */
+
+
+/* Media queries start here */
+@media only screen and (max-width: 800px) {
+
+nav ul{
+    display: none;
+}
+
+#nav-toggle {
+    position: absolute;
+    left: 18px;
+    top: 22px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+
+/* Start hamburger menu animation */
+#nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 3px;
+    width: 35px;
+    background: #2E2E3A;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+
+#nav-toggle span::before {
+    top: -10px;
+}
+
+#nav-toggle span::after {
+    bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
+    transition: all 500ms ease-in-out;
+}
+
+#nav-toggle.active span {
+    background-color: transparent;
+}
+
+#nav-toggle.active span::before, #nav-toggle.active span::after {
+    top: 0;
+}
+
+#nav-toggle.active span::before {
+    transform: rotate(45deg);
+}
+
+#nav-toggle.active span::after {
+    transform: rotate(-45deg);
+}
+/* End hamburger menu animation */
+
+}
