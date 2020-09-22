@@ -1,21 +1,28 @@
 /* Start Page Styles */
-body{
-    margin: 0;
+h1 {
+    font-size: 36pt;
 }
-
+h2 {
+    font-size: 24pt;
+}
 h1 h2{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
-
-h3 h4{
+h3 {
     font-family: 'Mukta Mahee', sans-serif;
-    font-weight: lighter;
+    font-weight: 300;
 }
-
+h4{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 300;
+}
 p{
     font-family: 'Mukta Mahee', sans-serif;
-    font-weight: lighter; 
+    font-weight: 300; 
+}
+body{
+    margin: 0;
 }
 /* End Pages Styles */
 
