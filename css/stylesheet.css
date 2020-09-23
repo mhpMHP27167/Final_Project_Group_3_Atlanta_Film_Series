@@ -24,13 +24,39 @@ p{
 body{
     margin: 0;
 }
+
+.logo{
+    height: 50px;
+    padding: 0 0 10px;
+}
+
 /* End Pages Styles */
 
 /* Start Navigation Styling */
+
+.navigation {
+    height: 70px;
+    background: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.brand {
+    position: absolute;
+    padding-left: 20px;
+    float: inline-start;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
 nav {
     float: right;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-    width: 100%;
+    width: fit-content;
+    height: 70px;
 }
 
 nav ul{
@@ -94,9 +120,14 @@ nav a:not(:only-child):after {
 
 
 /* Media queries start here */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 
 /* Start Mobile Navigation Styling */
+
+.brand{
+    
+}
+
 .nav-mobile{
     display: block;
 }
@@ -180,6 +211,6 @@ nav ul li a{
 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
 
 }
