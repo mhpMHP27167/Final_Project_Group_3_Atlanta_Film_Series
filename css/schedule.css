@@ -8,3 +8,12 @@
     background-color: #22468A;
     padding: 2rem;
 }
+.filmfreeway {
+    height: 50px;
+    width: 250px;
+    float: right;
+    margin: 2rem;
+}
+.btn-custom {
+    background-color: #FBAE56;
+}
