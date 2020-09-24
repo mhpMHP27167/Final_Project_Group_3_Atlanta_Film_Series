@@ -1,0 +1,88 @@
+
+.grid-image{
+    /* width: 90%; */
+    object-fit: cover;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    /* margin-left: 14%; */
+}
+
+.carousel-image{
+    height: 650px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-family: Playfair Display;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 7%;
+   
+}
+
+.card-text{
+    font-family: Playfair Display;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.card{
+    border-color: transparent;
+}
+
+.footer{
+    background-color:#2E2E3A;
+   
+}
+
+.footer-logo{
+ margin-top: 4%;
+margin-left: 45%;
+width: 8%;
+}
+
+.footer-card{
+    background-color:#2E2E3A;
+    margin-top: 6%;
+    text-align: center;
+}
+
+
+.footer-toptext-header{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 36px;
+    margin-top: 0%;
+
+}
+
+.footer-toptext{
+    color: white;
+    font-family: Playfair Display;
+    margin-top: 0%;
+
+}
+
+.form-control{
+    width: 35%;
+    margin-left: 70%;
+}
+
+.signup{
+    margin-right: 70%;
+    background-color: #FBAE56;
+    color: white;
+    font-family: Playfair Display;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-text{
+    color: white;
+    font-family: Playfair Display;
+    margin-top: 10%;
+    
+
+}
