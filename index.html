@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <!--This is the responsive navigation to be added to each page-->
@@ -62,8 +63,171 @@
     </section>
       <!--Navigation ends here-->
 
+      <!-- Body content starts here -->
+    
+
+    <div class="container-fluid-heroimage">
+
+        <!---carousel starts here-->
+          
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Screen Shot 2020-09-22 at 11.40.07 AM.png" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Screen Shot 2020-09-22 at 11.40.15 AM.png" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Screen Shot 2020-09-22 at 11.40.24 AM.png" class="d-block w-100 carousel-image" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+           <!---carousel ends here-->
+    </div>
+     
+
+   <div class="container-grid">
+           <div class="row">
+                 <img class="grid-image col-lg-6 col-md-6 col-sm-12" src="images/Screen Shot 2020-09-22 at 11.40.07 AM.png">
+                 <div class="col-lg-6 col-md-6 col-sm-12">
+                 <!-- <img class="grid-image" src="images/Screen Shot 2020-09-22 at 11.40.07 AM.png"> -->
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">About ATL Film Series</h5>
+                        <p class="card-text">The ATL Film Series is four separate festivals held annually: The Atlanta Shortfest, The Atlanta Undergroud Film Festival, The Atlanta Docufest, and The Atlanta Horror Festival.</p>
+                      </div>
+                    </div>
+               </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <!-- <img class="grid-image" src="images/Screen Shot 2020-09-22 at 11.40.07 AM.png"> -->
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Contact Us</h5>
+                      <p class="card-text">Want to volunteer? Have questions?</p>
+
+                       <p class="card-text"> Email us: atlfilmseries@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                  <img class="grid-image col-lg-6 col-md-6 col-sm-12" src="images/Screen Shot 2020-09-22 at 11.40.07 AM.png">
+             </div>
+   </div>
+
+
+   <div class="footer">
+
+    
+      <div class="footer-card">
+        <div class="footer-card-body">
+          <h5 class="footer-toptext-header">Get the latest</h5>
+          <p class="footer-toptext">Sign up to recieve emails on the latest news for the Atlanta Film Series.</p>
+
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="col">
+                <button type="submit" class="btn  signup">Sign Up</button>
+              </div>
+            </div>
+            </form>
+        </div>
+      </div>
+
+   
+    <img class="footer-logo" src="images/logo-white.png">
+          <br>
+
+       <div class="footer-card">
+        <div class="footer-card-body">
+          <!-- <h5 class="card-title">About ATL Film Series</h5> -->
+          <!-- <p class="card-text">The ATL Film Series is four separate festivals held annually: The Atlanta Shortfest, The Atlanta Undergroud Film Festival, The Atlanta Docufest, and The Atlanta Horror Festival.</p> -->
+          
+          
+          <a class="footer-text" href="">Shortsfest August 2020</a>
+          <br>
+          <a class="footer-text" href="">Underground Fest September 2020</a>
+          <br>
+          <a class="footer-text" href="">Horror Film Festival October 2020</a>
+          <br>
+          <a class="footer-text" href="">Docufest November 2020 Submissions</a>
+          <br>
+          <a class="footer-text" href="">Submissions</a>
+          <br>
+        
+        </div>
+      </div>
+
+
+       <!-- <div class="row">
+        <a class="footer-text" href="">Shortsfest August 2020</a>
+       </div>
+      
+       <div class="row-footertext">
+        <a class="footer-text" href="">Underground Fest September 2020</a>
+       </div>
+
+       <div class="row-footertext">
+        <a class="footer-text" href="">Horror Film Festival October 2020</a>
+       </div>
+
+       <div class="row-footertext">
+        <a class="footer-text" href="">Docufest November 2020 Submissions</a>
+       </div>
+
+       <div class="row-footertext">
+        <a class="footer-text" href="">Submissions</a>
+       </div> -->
+       <!-- <ul>
+        <li>
+          <a class="footer-text" href="">Shortsfest August 2020</a>
+        </li>
+
+        <li>
+       <a class="footer-text" href=""></a>
+        </li>
+
+        <li>
+       <a class="footer-text" href=""></a>
+        </li>
+
+       <li>
+       <a class="footer-text" href=""></a>
+       </li>
+
+       <li>
+       <a class="footer-text" href=""></a>
+       </li>
+    </ul> -->
+   </div>
+
+
+
+    <!-- Body content ends here -->
+
       <!--JS Scripts-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="js/afs.js"></script>
 </body>
 </html>
