@@ -40,12 +40,11 @@ body{
 /* End Pages Styles */
 
 /* Start Navigation Styling */
-
 .navigation {
     height: 70px;
     background: white;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-    z-index: 1;
+    z-index: 1000;
 }
 
 .nav-container {
@@ -85,7 +84,9 @@ nav a {
     background: #ffffff;
     color: #2E2E3A;
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
 }
 
 nav a:hover {
@@ -101,18 +102,20 @@ nav a:not(:only-child):after {
 
 .nav-dropdown {
     position: absolute;
-    z-index: 2;
+    z-index: 1000;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
     display: none;
 }
 
 .nav-dropdown li {
     min-width: 190px;
+    z-index: 1000;
 }
 
 .nav-dropdown a {
     padding: 15px;
     line-height: 20px;
+    z-index: 1000;
 }
 
 .nav-mobile{
@@ -123,6 +126,7 @@ nav a:not(:only-child):after {
     background: #ffffff;
     height: 70px;
     width: 70px;
+    z-index: 1000;
 }
 /* End Navigation Styling */
 
@@ -137,7 +141,8 @@ nav a:not(:only-child):after {
 }
 
 .hero-content {
-    width: 66%;
+    width: 75%;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -156,14 +161,62 @@ nav a:not(:only-child):after {
     color: white;
 }
 
-
-.card {
-    padding-top: 20px;
+.herocard {
+    height: 100px;
+    background-color: white;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-    border-radius: 0 !important;
-    z-index: 0 !important;
+    padding: 15px;
+}
+/* Hero Image Styles End */
+
+/* Archive Pages */
+
+.archive-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh 50vh;
+    margin: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.archivecard {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+.archivecard-text {
+    height: 100px;
+    width: 100%;
+    padding: 15px;
+    grid-row: 2 / span 1;
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* AUFF Archive */
+#auff-2018 {
+    background-image: url(../images/auff-archive-2018.png);
+    background-position: center;
+    
+}
+
+#auff-2017 {
+    background-image: url(../images/auff-archive-2017.png);
+}
+
+#auff-2016 {
+    background-image: url(../images/auff-archive-2016.png);
+    background-position: right;
+}
+
+#auff-2015 {
+    background-image: url(../images/auff-archive-2015.png);
+    background-position: right;
+}
 /* Media queries start here */
 @media only screen and (max-width: 850px) {
 
@@ -203,6 +256,7 @@ p{
 /* Start Mobile Navigation Styling */
 .nav-mobile{
     display: block;
+    z-index: 1000
 }
 
 nav {
@@ -282,7 +336,31 @@ nav ul li a{
 /* End hamburger menu animation */
 /* End mobile navigation styling */
 
+/* Archive Pages - Mobile */
+.archive-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 0px;
+    row-gap: 0px;
 }
+
+.archivecard {
+    min-height: 50vh;
+    display: flex;
+}
+
+.archivecard-text {
+    height: 100px;
+    width: 75%;
+    padding: 15px;
+    margin: auto;
+    grid-row: 2 / span 1;
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+
 
 @media only screen and (min-width: 850px) {
 
