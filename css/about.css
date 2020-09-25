@@ -1,0 +1,47 @@
+.titleText{
+    font-family: Playfair Display;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 7%;
+    color:  #2E2E3A;
+}
+
+.heroText{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 24px;
+    color:  #2E2E3A;
+    text-align:center;
+}
+
+.venueText{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 24px;
+    color:  #2E2E3A;
+    background-color: #ffffff;
+}
+.about{
+    background-color: #2E2E3A;
+}
+.aboutTitle{
+    font-family: Playfair Display;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 7%;
+    color: #ffffff;
+}
+
+.aboutText{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.volunteer{
+    background-color: #ffffff;
+}
+
+.volunteerText{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 24px;
+    color:  #2E2E3A;
+}
