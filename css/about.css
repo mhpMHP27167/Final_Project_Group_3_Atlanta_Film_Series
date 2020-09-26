@@ -6,11 +6,24 @@
     color:  #2E2E3A;
 }
 
+.covidRead{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 24px;
+    color:  #FFFFFF !important;
+    background-color: #8B2023;
+    text-align:center;
+}
+
 .heroText{
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 24px;
     color:  #2E2E3A;
     text-align:center;
+}
+.schedButton{
+    color:#2E2E3A;
+    background-color:#FFFFFF;
+    border: none;
 }
 
 .venueText{
