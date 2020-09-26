@@ -12,13 +12,8 @@ h2, .h2 {
 h3, .h3 {
     font-size: 16pt !important;
     font-family: 'Mukta Mahee', sans-serif;
-<<<<<<< HEAD
-    font-weight: 300;
-    font-size: 1.2rem;
-=======
     font-weight: 100 !important;
     color: #2E2E3A;
->>>>>>> badd5489d80014df8425022dd3c8b1e4ee8a3fcd
 }
 
 h4, .h4 {
@@ -91,11 +86,8 @@ nav a {
     color: #2E2E3A;
     text-decoration: none;
     font-family: 'Mukta Mahee', sans-serif;
-<<<<<<< HEAD
-=======
     font-weight: 100;
     font-size: 16px;
->>>>>>> badd5489d80014df8425022dd3c8b1e4ee8a3fcd
 }
 
 nav a:hover {
@@ -234,6 +226,7 @@ nav a:not(:only-child):after {
 }
 /* Media queries start here */
 @media only screen and (max-width: 850px) {
+
 
 /* Start Mobile Page Styles */
 h1, .h1 {
@@ -375,7 +368,7 @@ nav ul li a{
     text-align: center;
 }
 
-
+}
 
 @media only screen and (min-width: 850px) {
 

@@ -1,3 +1,6 @@
+h1 h3 {
+    color: white;
+}
 .schedulehead {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
@@ -68,5 +71,18 @@
 }
 .day_block {
     display: block;
+}
+
+@media only screen and (max-width: 850px) {
+    .schedulehead {
+        font-size: 24px;   
+    }
+    .schedulehead_date {
+        font-size: 18px;
+    }
+    .btn-custom {
+        display: none;
+    }
+    
 }
 
