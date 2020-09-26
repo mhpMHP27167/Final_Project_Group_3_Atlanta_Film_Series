@@ -1,36 +1,37 @@
 /* Start Page Styles */
 h1, .h1 {
-    font-size: 36pt;
+    font-size: 32pt;
     font-family: 'Playfair Display', serif;
     color: #2E2E3A;
 }
 h2, .h2 {
-    font-size: 24pt;
+    font-size: 20pt;
     font-family: 'Playfair Display', serif;
     color: #2E2E3A;
 }
 h3, .h3 {
-    font-size: 20pt !important;
-    font-family: 'Mukta Mahee', sans-serif;
-    font-weight: 100 !important;
-    color: #2E2E3A;
-}
-
-h4, .h4 {
     font-size: 16pt !important;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 100 !important;
     color: #2E2E3A;
 }
 
+h4, .h4 {
+    font-size: 12pt !important;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100 !important;
+    color: #2E2E3A;
+}
+
 p{
-    font-size: 16pt;
+    font-size: 12pt;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 200; 
     color: #2E2E3A;
 }
 body{
     margin: 0;
+    width: 100%;
 }
 
 .logo{
@@ -174,7 +175,7 @@ nav a:not(:only-child):after {
 .archive-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50vh 50vh 50vh;
+    grid-template-rows: 300px 300px 300px;;
     margin: 20px;
     row-gap: 20px;
     column-gap: 20px;
@@ -188,9 +189,10 @@ nav a:not(:only-child):after {
 }
 
 .archivecard-text {
-    height: 100px;
+    min-height: fit-content;
     width: 100%;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     grid-row: 2 / span 1;
     background-color: white;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
@@ -216,6 +218,11 @@ nav a:not(:only-child):after {
 #auff-2015 {
     background-image: url(../images/auff-archive-2015.png);
     background-position: right;
+}
+
+#auff-2014 {
+    background-image: url(../images/auff-archive-2014.png);
+    background-position: top;
 }
 /* Media queries start here */
 @media only screen and (max-width: 850px) {
