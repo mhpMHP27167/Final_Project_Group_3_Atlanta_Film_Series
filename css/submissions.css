@@ -1,0 +1,83 @@
+.submission-hero-image{
+    background-color:#22468A ;
+    text-align: center;
+    color: white;
+}
+
+.hero-image-title{
+    margin-top: 30px;
+}
+
+.submission-container{
+    width: 60%;
+    min-width: 320px;
+}
+
+/* .Submission-txt-div{
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    background-color: #ededed; 
+     text-align: center; 
+} */
+
+.Submission-title{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.Submission-txt{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.Submission-btn{
+    border-radius: 10px;
+    height: 3rem;
+    background-color: #C23936 ;
+    color: white;
+    border-color: transparent;
+    /* margin-left: 4rem ; */
+    padding-left: 2em;
+    padding-right: 2em;
+   
+}
+.submission-award-card {
+    padding:20px;
+}
+
+.submission-award-card-body{
+    background-color: #c4c4c4;
+    /* margin-left: 20%;
+    margin-top: 20%; */
+    /* margin-left: 3rem; */
+}
+
+/* .Submission-card-body{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+} */
+
+@media (min-width: 768px) {
+    .submission-container{
+        width: 80%;
+    }
+    
+    .Submission-btn{
+        margin-left: 80px;
+    }
+
+
+
+
+
+
+
+
+
+
+  }
