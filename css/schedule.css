@@ -13,13 +13,16 @@
     padding: 20px;
 }
 .btn-custom {
-    background-color: #FBAE56;
+    background-color: #2E6DE2;
     height: 50px;
     width: 250px;
-    color: #2E2E3A;
+    color: white;
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 10px;
+}
+.mobile_button {
+    display: none;
 }
 .blue_block {
     height: 70px;
@@ -38,7 +41,7 @@
     background-color: #4e7ddb6b;
 }
 .movie_block:hover .blue_block {
-    background-color: #22468A;   
+    background-color: #2E6DE2;   
 }
 .schedule_time {
     width: 20%;
@@ -86,6 +89,9 @@
     .desktop_button {
         display: none;
     }
+    .mobile_button {
+        display: block;
+    }
     .blue_block {
         display: none;
     }
@@ -93,6 +99,7 @@
         font-size: 18pt;
         font-weight: bold;
         line-height: normal;
+        padding-top: 20px;
     }
     .schedule_time {
         width: 50%;
