@@ -1,0 +1,45 @@
+h3 {
+    font-weight: 300;
+}
+.schedulehead {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: white;
+}
+.blue {
+background-image: url(../images/steven-van-bTPP3jBnOb8-unsplash.jpg);
+background-size: cover;
+background-color: blue;
+}
+.filmfreeway { 
+    float: right;
+}
+.btn-custom {
+    background-color: #FBAE56;
+    height: 50px;
+    width: 250px;
+}
+.blue_block {
+    height: 70px;
+    width: 20px;
+    border-radius: 0px;
+    background-color: grey;
+}
+.movie_time {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 
+    background-color: red;
+}
+.movie_day_time {
+    padding-left: 3rem;
+}
+.movie_schedule {
+    margin: 7rem;
+}
+.schedule_time {
+    width: 200px;
+    padding-left: 15px;
+
+}

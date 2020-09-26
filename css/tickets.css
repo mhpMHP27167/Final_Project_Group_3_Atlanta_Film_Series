@@ -1,0 +1,70 @@
+.heroimage{
+    width: 100% !important;
+    object-fit: cover;
+    max-height: 30% !important;
+    
+
+
+}
+
+.hero-image-title{
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    /* margin-left: 37%; */
+    margin-top: 16%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.bigSection{
+  margin-left: 10%;
+  margin-right: 10%;
+  /* background-color: #ededed; */
+}
+
+.bigSection-2{
+    /* margin-left: 2rem; */
+  margin-right: 2rem;
+}
+
+.ticket-grid .row{
+    justify-content: center;
+}
+
+.ticket-grid .card{
+    /* margin-left: 20%; */
+    margin-top: 10%;
+    width: 20rem;
+    
+}
+
+.ticket-grid .card-body{
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    background-color:#2e2e3a;
+    border-color:#ededed;
+    border-radius: 10px;
+}
+
+.ticket-grid .card-ticket{
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.freeway-btn{
+    /* margin-left: 3%; */
+    background-color: #FBAE56;
+    color: white;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
