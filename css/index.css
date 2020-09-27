@@ -10,8 +10,16 @@
 .carousel-image{
     height: 650px;
     object-fit: cover;
+    font-size: 80px;
+    font-family: playfair display;
 }
 
+.main-title{
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+    font-size: 90px;
+}
 .card-title{
     font-family: Playfair Display;
     font-size: 36px;
@@ -27,6 +35,11 @@
     margin-top: 7%;
 }
 
+.card-horror-hmpg{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
 .card{
     border-color: transparent;
 }
