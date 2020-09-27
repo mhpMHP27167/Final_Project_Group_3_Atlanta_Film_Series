@@ -40,12 +40,24 @@
     border: none;
     position: absolute;
 }
-
+.venue{
+    background-color:  #2E2E3A;
+    margin-right:20px;
+    margin-left:70px;
+    padding:20px;
+}
+.venueTitle{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color:  #ffffff;
+}
 .venueText{
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 24px;
-    color:  #2E2E3A;
-    background-color: #ffffff;
+    color:  #ffffff;
+}
+.map{
+    margin-bottom: 20px;
 }
 .about{
     background-color: #2E2E3A;
@@ -54,8 +66,9 @@
     font-family: 'Playfair Display';
     font-size: 36px;
     text-align: left;
-    margin-top: 7%;
     color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .aboutText{
@@ -68,11 +81,11 @@
     background-color:#2E6DE2;
     border: none;
 }
-
-.volunteer{
-    background-color: #ffffff;
+.volunteerTitle{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color:#2E2E3A;
 }
-
 .volunteerText{
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 24px;
