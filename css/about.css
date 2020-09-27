@@ -1,5 +1,5 @@
 .titleText{
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-size: 36px;
     text-align: left;
     margin-top: 7%;
@@ -82,11 +82,12 @@
 
 
 .aboutTitle{
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-size: 36px;
     text-align: left;
-    margin-top: 7%;
     color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .aboutText{
@@ -95,9 +96,19 @@
     color: #ffffff;
     text-align:left;
 }
-
+.buyTickets{
+    color:#FFFFFF;
+    background-color:#2E6DE2;
+    border: none;
+}
 .volunteer{
-    background-color: #ffffff;
+    background-color:#ffffff;
+}
+.volunteerTitle{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    color:#2E2E3A;
+    text-align:left;
 }
 
 .volunteerTitle{
