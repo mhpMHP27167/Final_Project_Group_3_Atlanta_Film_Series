@@ -3,7 +3,13 @@
     font-size: 36px;
     text-align: left;
     margin-top: 7%;
+    /* padding-left: 20px; */
     color:  #2E2E3A;
+}
+
+.covid-text{
+    color: white;
+    font-size: 20px;
 }
 .covidRead{
     font-family: 'Mukta Mahee', sans-serif;
@@ -11,6 +17,11 @@
     color:  #FFFFFF !important;
     background-color: #8B2023;
     text-align: center;
+}
+
+.hero-image-btn{
+    background-color:#2e6de2;
+    color: white;
 }
 .aboutImage{
     width: 100% !important;
@@ -33,45 +44,43 @@
 .heroText{
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 24px;
-    color:  #ffffff;
-    padding:1%;
+    color: white;
+    text-align:center;
 }
-.schedButton{
-    color:#FFFFFF;
-    background-color:#2E6DE2;
-    border: none;
-    position: absolute;
-    text-align: center;
-    font-family: 'Mukta Mahee', sans-serif;
+
+
+.mr-3{
+    margin-left: 15px;
+    height: 400px;
 }
-.eventCards{
-    margin-top: 16px;
-    margin-bottom: 16px;
+
+.media{
+    justify-content: center;
 }
-.venue{
-    background-color:  #2E2E3A;
-    width: 30%;
-    margin-right:16px;
-    padding: 25px;
-}
-.venueTitle{
-    font-family: 'Playfair Display';
-    font-size: 36px;
-    color:  #ffffff;
-}
+
 .venueText{
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 24px;
-    color:  #ffffff;
-}
-.map{
-    margin-bottom: 20px;
-    width: 50%;
-    height: auto;
+    color:  #2E2E3A;
+    background-color: #ffffff;
+    /* padding-left: 20px; */
 }
 .about{
     background-color: #2E2E3A;
 }
+
+.freeway-btn{
+    /* margin-left: 3%; */
+    background-color: #2e6de2;
+    color: white;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    width: 10rem;
+    /* margin-left: 33rem; */
+}
+
+
 .aboutTitle{
     font-family: 'Playfair Display';
     font-size: 36px;
@@ -85,6 +94,7 @@
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 24px;
     color: #ffffff;
+    text-align:left;
 }
 .buyTickets{
     color:#FFFFFF;
@@ -100,34 +110,43 @@
     color:#2E2E3A;
     text-align:left;
 }
+
+.volunteerTitle{
+    position: absolute;
+    text-align: center;
+}
+
 .volunteerText{
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 24px;
-    color:  #2E2E3A;
+    color: white;
+    position: absolute;
+    text-align: center;
 }
 
-@media only screen and (max-width: 850px) {
-
-    /* Start Mobile Page Styles */
-    .volunteerTitle {
-        font-size: 24pt !important;
-        font-family: 'Playfair Display', serif;
-        color: #2E2E3A;
-    }
-    .volunteerText {
-        font-size: 16pt !important;
-        font-family: 'Mukta Mahee', sans-serif;
-        color: #2E2E3A;
-    }
-    .heroTitle, .aboutTitle, .venueTitle{
-        font-size: 24pt !important;
-        font-family: 'Playfair Display', serif;
-        color: #ffffff;
-    }
-    .heroText, .aboutText, .venueText {
-        font-size: 16pt !important;
-        font-family: 'Mukta Mahee', sans-serif;
-        color: #ffffff;
-    } 
+.grid-image{
+    /* width: 90%; */
+    object-fit: fill;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    /* margin-left: 14%; */
 }
-    /* End Mobile Page Styles */
+
+.background-volunteer{
+    background-color: #2E2E3A;
+}
+
+.card-title{
+    font-family: Playfair Display;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 7%;
+   
+}
+
+.card-text{
+    font-family: Playfair Display;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7%;
+}
