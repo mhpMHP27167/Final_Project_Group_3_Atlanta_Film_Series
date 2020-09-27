@@ -42,9 +42,11 @@
 }
 .venue{
     background-color:  #2E2E3A;
-    margin-right:20px;
-    margin-left:70px;
-    padding:20px;
+    margin-right:16px;
+    padding-top:55px;
+    padding-bottom:55px;
+    padding-left:25px;
+    padding-right:25px;
 }
 .venueTitle{
     font-family: 'Playfair Display';
@@ -81,10 +83,14 @@
     background-color:#2E6DE2;
     border: none;
 }
+.volunteer{
+    background-color:#ffffff;
+}
 .volunteerTitle{
     font-family: 'Playfair Display';
     font-size: 36px;
     color:#2E2E3A;
+    text-align:left;
 }
 .volunteerText{
     font-family: 'Mukta Mahee', sans-serif;
