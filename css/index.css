@@ -84,12 +84,12 @@ width: 8%;
 
 .signup{
     margin-right: 70%;
-    background-color: #FBAE56;
+    background-color: #2e6de2;
     color: white;
-    font-family: Playfair Display;
+    font-family: Mukta mahee;
     width: 100px;
     text-align: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .footer-text{
@@ -99,3 +99,18 @@ width: 8%;
     
 
 }
+
+@media only screen and (max-width: 500px) {
+
+    .form-control{
+        width: 100%;
+        margin-left: 10%;
+
+    }
+
+    .footer-logo{
+        margin-top: 4%;
+       margin-left: 45%;
+       width: 13%;
+       }
+  }
