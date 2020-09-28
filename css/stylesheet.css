@@ -46,6 +46,7 @@ body{
     background: white;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
     position: relative;
+    z-index: 2000;
 }
 
 .nav-container {
