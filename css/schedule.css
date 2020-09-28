@@ -21,6 +21,11 @@
     font-size: 1.3rem;
     margin: 10px;
 }
+a {
+    font-family: 'Mukta Mahee', sans-serif;
+    color:  #2E6DE2; 
+    display: none;
+}
 .mobile_button {
     display: none;
 }
@@ -80,6 +85,14 @@
     .schedulehead {
         font-size: 24pt;   
     }
+    a {
+        font-family: 'Mukta Mahee', sans-serif;
+        color:  #2E6DE2; 
+        display: block;
+    }
+    .h2 {
+        font-size: 1.2rem !important;
+    }
     .h3 {
         margin-top: 20px;
     }
@@ -106,9 +119,10 @@
         padding-left: 0px;
         line-height: normal;
     }
-    .schedule_title {
+    .schedule_title  {
         width: 50%;
         line-height: normal;
+        font-size: 1.2rem;
     }
     .schedule_director {
         display: none;
