@@ -13,7 +13,7 @@
     color: white;
     position: absolute;
     /* margin-left: 37%; */
-    margin-top: 16%;
+    margin-top: 13%;
     width: 100%;
     text-align: center;
 
@@ -60,7 +60,7 @@
 
 .freeway-btn{
     /* margin-left: 3%; */
-    background-color: #FBAE56;
+    background-color: #2e6de2;
     color: white;
     font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
