@@ -151,17 +151,6 @@ nav a:not(:only-child):after {
 .hero-content h1 {
     margin-bottom: 10%;
 }
-    
-#auff-hero {
-    background-image: url(../images/auff-archive-2019.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#auff-hero h1 {
-    color: white;
-}
 
 .herocard {
     height: 100px;
@@ -171,8 +160,7 @@ nav a:not(:only-child):after {
 }
 /* Hero Image Styles End */
 
-/* Archive Pages */
-
+/* Archive Pages - Start CSS*/
 .archive-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -201,6 +189,17 @@ nav a:not(:only-child):after {
 }
 
 /* AUFF Archive */
+#auff-hero {
+    background-image: url(../images/auff-archive-2019.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#auff-hero h1 {
+    color: white;
+}
+
 #auff-2018 {
     background-image: url(../images/auff-archive-2018.png);
     background-position: center;
@@ -225,37 +224,131 @@ nav a:not(:only-child):after {
     background-image: url(../images/auff-archive-2014.png);
     background-position: top;
 }
+
+/* Docufest Archive */
+#docufest-hero {
+    background-image: url(../images/docufest-hero.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#docufest-hero h1 {
+    color: white;
+}
+
+#docufest-2018 {
+    background-image: url(../images/docufest-2018.png);
+    background-position: bottom;
+}
+
+#docufest-2017 {
+    background-image: url(../images/docufest-2017.png);
+    background-position: bottom;
+}
+
+#docufest-2016 {
+    background-image: url(../images/docufest-2016.png);
+    background-position: top;
+}
+
+#docufest-2015 {
+    background-image: url(../images/docufest-2015.png);
+}
+
+#docufest-2014 {
+    background-image: url(../images/docufest-2014.png);
+    background-position: right;
+}
+
+/* Horror Fest Archive */
+#horrorfest-hero {
+    background-image: url(../images/horrorfest-hero.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#horrorfest-hero h1 {
+    color: white;
+}
+
+#horrorfest-2018 {
+    background-image: url(../images/horrorfest-2018.png);
+}
+
+#horrorfest-2017 {
+    background-image: url(../images/horrorfest-2017.png);
+}
+
+#horrorfest-2016 {
+    background-image: url(../images/horrorfest-2016.png);
+}
+
+#horrorfest-2015 {
+    background-image: url(../images/horrorfest-2015.png);
+}
+
+#horrorfest-2014 {
+    background-image: url(../images/horrorfest-2014.png);
+}
+
+/* Shortsfest Archive */
+#shortsfest-hero {
+
+}
+
+#shortsfest-2018 {
+
+}
+
+#shortsfest-2017 {
+
+}
+
+#shortsfest-2016 {
+
+}
+
+#shortsfest-2015 {
+
+}
+
+#shortsfest-2014 {
+
+}
+
 /* Media queries start here */
 @media only screen and (max-width: 850px) {
 
 
 /* Start Mobile Page Styles */
 h1, .h1 {
-    font-size: 24pt;
-    font-family: 'Playfair Display', serif;
-    color: #2E2E3A;
-}
-h2, .h2 {
     font-size: 20pt;
     font-family: 'Playfair Display', serif;
     color: #2E2E3A;
 }
-h3, .h3 {
-    font-size: 18pt !important;
-    font-family: 'Mukta Mahee', sans-serif;
-    font-weight: 100 !important;
+h2, .h2 {
+    font-size: 18pt;
+    font-family: 'Playfair Display', serif;
     color: #2E2E3A;
 }
-
-h4, .h4 {
+h3, .h3 {
     font-size: 16pt !important;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 100 !important;
     color: #2E2E3A;
 }
 
+h4, .h4 {
+    font-size: 14pt !important;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 100 !important;
+    color: #2E2E3A;
+}
+
 p{
-    font-size: 16pt;
+    font-size: 14pt;
     font-family: 'Mukta Mahee', sans-serif;
     font-weight: 200; 
     color: #2E2E3A;
@@ -270,7 +363,7 @@ p{
 
 nav {
     width: 100%;
-    padding: 70px 0px 0px;
+    padding: 70px 0 15px;
 }
 
 nav ul{
@@ -346,6 +439,11 @@ nav ul li a{
 /* End mobile navigation styling */
 
 /* Archive Pages - Mobile */
+
+.hero-content {
+    width: 60%%;
+}
+
 .archive-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -360,7 +458,7 @@ nav ul li a{
 
 .archivecard-text {
     height: 100px;
-    width: 75%;
+    width: 60%;
     padding: 15px;
     margin: auto;
     grid-row: 2 / span 1;
