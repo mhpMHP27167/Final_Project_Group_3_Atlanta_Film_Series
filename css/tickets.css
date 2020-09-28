@@ -8,7 +8,7 @@
 }
 
 .hero-image-title{
-    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: playfair display;
     font-size: 3rem;
     color: white;
     position: absolute;
@@ -64,7 +64,16 @@
     color: white;
     font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     width: 100%;
 }
 
+@media only screen and (max-width: 500px) {
+
+    .heroimage{
+        max-height: 40%;
+    }
+    .hero-image-title{
+        font-size: 30px;
+    }
+  }
