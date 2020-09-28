@@ -227,6 +227,7 @@ nav a:not(:only-child):after {
 /* Media queries start here */
 @media only screen and (max-width: 850px) {
 
+
 /* Start Mobile Page Styles */
 h1, .h1 {
     font-size: 24pt;
@@ -367,7 +368,7 @@ nav ul li a{
     text-align: center;
 }
 
-
+}
 
 @media only screen and (min-width: 850px) {
 

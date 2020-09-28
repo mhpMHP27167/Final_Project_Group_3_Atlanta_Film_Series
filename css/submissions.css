@@ -49,18 +49,19 @@
     padding:20px;
 }
 
-.submission-award-card-body{
-    background-color: #c4c4c4;
-    /* margin-left: 20%;
-    margin-top: 20%; */
-    /* margin-left: 3rem; */
+.Submission-title{
+    color: white;
 }
 
-/* .Submission-card-body{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.submission-award-card-body{
+    background-color: #ededed;
     
-} */
+}
+
+.Submission-title-2{
+    font-family: playfair display;
+   
+}
 
 @media (min-width: 768px) {
     .submission-container{

@@ -1,45 +1,155 @@
-h3 {
-    font-weight: 300;
-}
-.schedulehead {
+.schedulehead h1 {
+    color: white;
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-size: 36px;
+}
+.schedulehead_date {
     color: white;
 }
 .blue {
-background-image: url(../images/steven-van-bTPP3jBnOb8-unsplash.jpg);
-background-size: cover;
-background-color: blue;
-}
-.filmfreeway { 
-    float: right;
+    background-image: url(../images/steven-van-bTPP3jBnOb8-unsplash.jpg);
+    background-size: cover;
+    background-color: #22468A;
+    padding: 20px;
 }
 .btn-custom {
-    background-color: #FBAE56;
+    background-color: #2E6DE2;
     height: 50px;
     width: 250px;
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+a {
+    font-family: 'Mukta Mahee', sans-serif;
+    color:  #2E6DE2; 
+}
+.mobile_button {
+    display: none;
 }
 .blue_block {
     height: 70px;
     width: 20px;
     border-radius: 0px;
-    background-color: grey;
+    background-color: #C4C4C4;
 }
-.movie_time {
+.movie_block {    
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 
-    background-color: red;
+    width: 100%;
+    margin-left: 50px;
+    height: 70px;
 }
-.movie_day_time {
-    padding-left: 3rem;
+.movie_block:hover {
+    background-color: #4e7ddb6b;
 }
-.movie_schedule {
-    margin: 7rem;
+.movie_block:hover .blue_block {
+    background-color: #2E6DE2;   
 }
 .schedule_time {
-    width: 200px;
+    width: 20%;
+    margin-top: 10px;
     padding-left: 15px;
-
+    font-size: 1.2rem;
 }
+.schedule_title {
+    width: 40%;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+.schedule_director {
+    width: 40%;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.container-custom {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+.height-fifty {
+    height: 50px;
+}
+.Day_date {
+    display: inline-block;
+}
+.day_block {
+    display: block;
+}
+.Details {
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .schedulehead {
+        font-size: 24pt;   
+    }
+    a {
+        font-family: 'Mukta Mahee', sans-serif;
+        color:  #2E6DE2; 
+    }
+    .Details {
+        display: flex;
+        text-decoration: underline;
+        line-height: 15px;
+    }
+    .h2 {
+        font-size: 1.2rem;
+        font-family: 'Mukta Mahee', sans-serif;
+    }
+    .h3 {
+        margin-top: 20px;
+    }
+    .schedulehead_date {
+        font-size: 18pt;
+    }
+    .desktop_button {
+        display: none;
+    }
+    .mobile_button {
+        display: block;
+    }
+    .blue_block {
+        display: none;
+    }
+    .Day_date {
+        font-size: 18pt;
+        font-weight: bold;
+        line-height: normal;
+        padding-top: 20px;
+    }
+    .schedule_time {
+        width: 50%;
+        padding-left: 0px;
+        line-height: normal;
+    }
+    .schedule_title  {
+        width: 50%;
+        font-size: 1rem;
+    }
+    .schedule_director {
+        display: none;
+    }
+    .container-custom {
+        display: inline-block;
+    }
+    .movie_block {    
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        height: 70px;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .container-custom {
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: center;
+}
+}
+
