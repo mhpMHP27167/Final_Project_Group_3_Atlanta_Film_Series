@@ -45,7 +45,8 @@ body{
     height: 70px;
     background: white;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-    z-index: 1000;
+    position: relative;
+    z-index: 2000;
 }
 
 .nav-container {
