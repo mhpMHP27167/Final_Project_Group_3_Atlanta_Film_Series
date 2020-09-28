@@ -1,76 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
+
 <body>
-    <!--This is the responsive navigation to be added to each page-->
-    <section class="navigation">
-      <div class="nav-container">
-          <div class="brand">
-          <a href="index.html"><img class="logo" src="images/logo-color.png"></a>
-          </div>
-          <nav>
-              <div class="nav-mobile">
-              <a id="nav-toggle" href="#!"><span></span></a>
-              </div>
-              <ul class="nav-list">
-              <li>
-                  <a href="#!">Shortsfest</a>
-                  <ul class="nav-dropdown">
-                  <li><a href="shortsfest-about.html">ATL Shortsfest <br> August 2020</a></li>
-                  <li><a href="tickets-shortfest.html">Tickets</i></a></li>
-                  <li><a href="shortsfest-schedule.html">Schedule</a></li>
-                  <li><a href="shortsfest-archive.html">Archive</a></li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#!">Underground Fest</a>
-                  <ul class="nav-dropdown">
-                  <li><a href="auff-about.html">AUFF <br> September 2020</a></li>
-                  <li><a href="auff-tickets.html">Tickets</a></li>
-                  <li><a href="auff-schedule.html">Schedule</a></li>
-                  <li><a href="auff-archive.html">Archive</a></li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#!">Horror Fest</a>
-                  <ul class="nav-dropdown">
-                  <li><a href="horrorfest-about.html">ATL Horror Festival <br> October 2020</a></li>
-                  <li><a href="tickets-horrorfest.html">Tickets</a></li>
-                  <li><a href="horrorfest-schedule.html">Schedule</a></li>
-                  <li><a href="horrorfest-archive.html">Archive</a></li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#!">Docufest</a>
-                  <ul class="nav-dropdown">
-                  <li><a href="docufest-archive.html">ATL Docufest <br> November 2020</a></li>
-                  <li><a href="tickets-docufest.html">Tickets</a></li>
-                  <li><a href="docufest-schedule.html">Schedule</a></li>
-                  <li><a href="docufest-archive.html">Archive</a></li>
-                  </ul>
-              </li>
-              <li><a href="submissions.html">Submissions</a></li>
-              </ul>
-          </nav>
+  <!--This is the responsive navigation to be added to each page-->
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="index.html"><img class="logo" src="images/logo-color.png"></a>
       </div>
+      <nav>
+        <div class="nav-mobile">
+          <a id="nav-toggle" href="#!"><span></span></a>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="#!">Shortsfest</a>
+            <ul class="nav-dropdown">
+              <li><a href="shortsfest-about.html">ATL Shortsfest <br> August 2020</a></li>
+              <li><a href="tickets-shortfest.html">Tickets</i></a></li>
+              <li><a href="shortsfest-schedule.html">Schedule</a></li>
+              <li><a href="shortsfest-archive.html">Archive</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#!">Underground Fest</a>
+            <ul class="nav-dropdown">
+              <li><a href="auff-about.html">AUFF <br> September 2020</a></li>
+              <li><a href="tickets-auff.html">Tickets</a></li>
+              <li><a href="auff-schedule.html">Schedule</a></li>
+              <li><a href="auff-archive.html">Archive</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#!">Horror Fest</a>
+            <ul class="nav-dropdown">
+              <li><a href="horrorfest-about.html">ATL Horror Festival <br> October 2020</a></li>
+              <li><a href="tickets-horrorfest.html">Tickets</a></li>
+              <li><a href="horrorfest-schedule.html">Schedule</a></li>
+              <li><a href="horrorfest-archive.html">Archive</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#!">Docufest</a>
+            <ul class="nav-dropdown">
+              <li><a href="docufest-archive.html">ATL Docufest <br> November 2020</a></li>
+              <li><a href="tickets-docufest.html">Tickets</a></li>
+              <li><a href="docufest-schedule.html">Schedule</a></li>
+              <li><a href="docufest-archive.html">Archive</a></li>
+            </ul>
+          </li>
+          <li><a href="submissions.html">Submissions</a></li>
+        </ul>
+      </nav>
+    </div>
   </section>
   <!--Navigation ends here-->
 
+  <!--Jumbotron and Hero Image starts here-->
+  <div class="aboutHero">
+    <div class="covidRead">
+      <a class="covid-text" href="covid.html">Read about Covid-19 Precautions</a>
+    </div>
+    <div class="heroCopy">
+      <h1 class="heroTitle">Atlanta Docufest</h1>
+      <h2 class="heroText">November 5-7, 2020</h2>
+      <!-- <a class="btn schedButton" href="auff-schedule.html">View Schedule</a> -->
+      <button type="submit" class="btn hero-image-btn">Buy Tickets</button>
+    </div>
+    <img class="aboutImage" src="images/docufest_about.jpg">
+  </div>
+  <!--Jumbotron and Hero Image ends here-->
+
+  <!--Event cards start here-->
+  <div class="container-fluid eventCards">
+    <div class="row">
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/about_scroll2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/about_scroll1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+        <div class="card">
+          <img src="images/about_scroll3.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Event cards end here-->
+
+  <!--Map Info starts here-->
+
+  <div class="row">
+    <img class="grid-image col-lg-6 col-md-6 col-sm-12" src="images/Map.png">
+    <div class="card card-horror-hmpg">
+      
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <!-- <img class="grid-image" src="images/Screen Shot 2020-09-22 at 11.40.07 AM.png"> -->
+      <div class="card">
+        <div class="card-body">
+          <h5 class="titleText">Docufest Venue</h5>
+          <p class="venueText">Docufest is held outdoors this year at<br>
+            Art & Industry​<br>
+            565 Northside Dr SW Unit #5<br>
+            Atlanta, Georgia 30310<br>
+            Free parking in the parking lot beside the building.<br>
+            Masks are required. Bring a chair, pillow or blanket.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Map Info ends here-->
+
+  <!--About info starts here-->
+  <div class="jumbotron about">
+    <h1 class="display-4 aboutTitle">About Atlanta Docufest 2020</h1>
+    <p class="aboutText">The 2020 Atlanta International Documentary Film Festival (Atlanta Docufest) is held November 5 - 7, 2020 at 
+      Synchronicity Theatre  in Atlanta Georgia. </p>
+
+      <p class="aboutText">2020 marks our 15th annual celebration of documentary filmmakers, their films and their fans. During the 
+        last 15 years, the Atlanta Docufest has continued to bring you the best in independent documentary film from across the globe. 
+        DocuFest showcases meaningful life stories which educate and entertain audiences of every demographic.</p>
+
+      <p class="aboutText">We encourage talented documentary filmmakers from every country to share your story with our audience. 
+        Join us for this very special event, where an unforgettable collection of documentary films and their creators are celebrated.</p>
+
+    <button type="submit" class=" mx-auto btn  freeway-btn">Buy Tickets</button>
+
+  </div>
+  <!--About info ends here-->
 
 
+
+
+  <!--Volunteer info starts here-->
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+
+      </div>
+
+      <div class="col-sm">
+        <h5 class="card-title volunteerTitle">Volunteer</h5>
+        <h5 class="card-text volunteerText">Want to volunteer?</h5>
+        <p class="card-text volunteerText"><a href="">Email us: atlfilmseries@gmail.com</a></p>
+      </div>
+
+
+      <div class="col-sm">
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--Volunteer info ends here-->
 
   <!--Footer Starts Here-->
 
   <div class="footer">
 
-    
+
     <div class="footer-card">
       <div class="footer-card-body">
         <h5 class="footer-toptext-header">Get the latest</h5>
@@ -85,20 +200,20 @@
               <button type="submit" class="btn  signup">Sign Up</button>
             </div>
           </div>
-          </form>
+        </form>
       </div>
     </div>
 
- 
-  <img class="footer-logo" src="images/logo-white.png">
-        <br>
 
-     <div class="footer-card">
+    <img class="footer-logo" src="images/logo-white.png">
+    <br>
+
+    <div class="footer-card">
       <div class="footer-card-body">
         <!-- <h5 class="card-title">About ATL Film Series</h5> -->
         <!-- <p class="card-text">The ATL Film Series is four separate festivals held annually: The Atlanta Shortfest, The Atlanta Undergroud Film Festival, The Atlanta Docufest, and The Atlanta Horror Festival.</p> -->
-        
-        
+
+
         <a class="footer-text" href="shortsfest-about.html">Shortsfest August 2020</a>
         <br>
         <a class="footer-text" href="auff-about.html">Underground Fest September 2020</a>
@@ -109,14 +224,14 @@
         <br>
         <a class="footer-text" href="submissions.html">Submissions</a>
         <br>
-      
+
       </div>
     </div>
- </div>
-<!--Footer Ends Here-->
-
-      <!--JS Scripts-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="js/afs.js"></script>
+  </div>
+  <!--Footer Ends Here-->
+  <!--JS Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/afs.js"></script>
 </body>
+
 </html>
