@@ -80,7 +80,15 @@
     height: 50px;
     /* margin-left: 33rem; */
 }
-
+.btn-custom {
+    background-color: #2E6DE2;
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 1.3rem;
+    margin: 10px;
+}
 
 .aboutTitle{
     font-family: 'Playfair Display';
