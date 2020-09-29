@@ -1,7 +1,7 @@
 .schedulehead h1 {
     color: white;
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 32px;
 }
 .schedulehead_date {
     color: white;
@@ -133,8 +133,11 @@ a {
 }
 
 @media only screen and (max-width: 850px) {
-    .schedulehead {
-        font-size: 20pt;   
+
+    .schedulehead h1 {
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
     }
 
     .Details {
