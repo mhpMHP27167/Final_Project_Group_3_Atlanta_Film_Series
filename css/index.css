@@ -22,14 +22,14 @@
 }
 .card-title{
     font-family: Playfair Display;
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     margin-top: 7%;
    
 }
 
 .card-text{
-    font-family: Playfair Display;
+    font-family: 'Mukta Mahee', sans-serif;
     font-size: 20px;
     text-align: center;
     margin-top: 7%;
@@ -37,8 +37,8 @@
 
 .card-horror-hmpg{
     position: absolute;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 13%;
+    margin-left: 15%;
 }
 .card{
     border-color: transparent;
@@ -84,18 +84,33 @@ width: 8%;
 
 .signup{
     margin-right: 70%;
-    background-color: #FBAE56;
+    background-color: #2E6DE2;
     color: white;
-    font-family: Playfair Display;
+    font-family: 'Mukta Mahee', sans-serif;
     width: 100px;
     text-align: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .footer-text{
     color: white;
-    font-family: Playfair Display;
+    font-family: 'Mukta Mahee', sans-serif;
     margin-top: 10%;
     
 
 }
+
+@media only screen and (max-width: 500px) {
+
+    .form-control{
+        width: 100%;
+        margin-left: 10%;
+
+    }
+
+    .footer-logo{
+        margin-top: 4%;
+       margin-left: 45%;
+       width: 13%;
+       }
+  }
