@@ -1,4 +1,16 @@
-
+.covid-19_background {
+    background-color: #2E2E3A;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+    font-size: 32pt;
+    font-weight: normal;
+}
+.display-4 {
+    font-size: 32pt;
+    font-weight: normal;
+}
 .submission-hero-image{
     background-image: url(../images/denise-jans-Lq6rcifGjOU-unsplash.jpg);
     background-size: cover;
@@ -100,6 +112,8 @@
     font-size: 18pt;
     font-family: 'Mukta Mahee', sans-serif;
 }
+
+
 
 @media (min-width: 768px) {
     .submission-container{
