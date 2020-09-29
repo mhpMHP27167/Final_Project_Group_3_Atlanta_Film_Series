@@ -172,7 +172,7 @@ nav a:not(:only-child):after {
 .archivecard {
     min-height: 100%;
     display: grid;
-    grid-template-rows: 75% 25%;
+    grid-template-rows: auto 30%;
     background-size: cover;
     background-repeat: no-repeat;
 }
