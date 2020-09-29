@@ -8,29 +8,31 @@
 }
 
 .carousel-image{
-    height: 650px;
+    height: 500px;
     object-fit: cover;
     font-size: 80px;
     font-family: 'Playfair Display', serif;
 }
 
 .main-title{
+    width: 100%;
     color: white;
     position: absolute;
-    margin-left: 300px;
-    font-size: 60px;
+    font-size: 32pt;
+    margin: auto;
+    padding: 5% 20%;
+    text-align: center;
 }
 .card-title{
     font-family: 'Playfair Display', serif;
-    font-size: 36px;
+    font-size: 20pt;
     text-align: center;
     margin-top: 7%;
-   
 }
 
 .card-text{
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 20px;
+    font-size: 12pt;
     text-align: center;
     margin-top: 7%;
 }
@@ -42,6 +44,7 @@
 }
 .card{
     border-color: transparent;
+    border-radius: 0px;
 }
 
 .footer{
@@ -114,17 +117,16 @@ width: 8%;
        width: 13%;
        }
 
-       .main-title{
+    .main-title {
+        width: 100%;
         color: white;
         position: absolute;
-        margin-left: 100px;
-        font-size: 28px;
-        margin-top: 30px;
+        margin: auto;
+        padding: 10% 20%;
+        text-align: center;
     }
+
     .footer-toptext-header{
-       
         font-size: 18px;
-       
-    
     }
   }
