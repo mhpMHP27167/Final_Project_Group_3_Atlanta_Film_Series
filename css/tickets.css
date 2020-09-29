@@ -8,7 +8,7 @@
 }
 
 .hero-image-title{
-    font-family: playfair display;
+    font-family: 'Playfair Display', serif;
     font-size: 3rem;
     color: white;
     position: absolute;
@@ -52,7 +52,7 @@
 }
 
 .ticket-grid .card-ticket{
-    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:  'Mukta Mahee', sans-serif;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -62,7 +62,7 @@
     /* margin-left: 3%; */
     background-color: #2e6de2;
     color: white;
-    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Mukta Mahee', sans-serif;
     text-align: center;
     /* border-radius: 10px; */
     width: 100%;
