@@ -86,57 +86,55 @@ a {
 
 @media only screen and (max-width: 850px) {
     .schedulehead {
-        font-size: 24pt;   
+        font-size: 20pt;   
     }
-    a {
-        font-family: 'Mukta Mahee', sans-serif;
-        color:  #2E6DE2; 
-    }
+
     .Details {
         display: flex;
         text-decoration: underline;
-        line-height: 15px;
+        line-height: 20px;
+        font-family: 'Mukta Mahee', sans-serif;
+        color:  #2E6DE2; 
     }
+
     .h2 {
-        font-size: 1.2rem;
         font-family: 'Mukta Mahee', sans-serif;
     }
-    .h3 {
-        margin-top: 20px;
-    }
-    .schedulehead_date {
-        font-size: 18pt;
-    }
+
     .desktop_button {
         display: none;
     }
+
     .mobile_button {
         display: block;
     }
+
     .blue_block {
         display: none;
     }
+
     .Day_date {
         font-size: 18pt;
         font-weight: bold;
         line-height: normal;
         padding-top: 20px;
     }
+
     .schedule_time {
         width: 50%;
         padding-left: 0px;
         line-height: normal;
     }
+
     .schedule_title  {
         width: 50%;
-        font-size: 1rem;
+        font-size: 14pt;
     }
+
     .schedule_director {
         display: none;
     }
-    .container-custom {
-        display: inline-block;
-    }
+
     .movie_block {    
         display: inline-flex;
         flex-wrap: wrap;
@@ -146,11 +144,11 @@ a {
         margin-left: 0px;
         align-items: center;
     }
+
     .container-custom {
-        display: inline-block;
         margin-left: 0px;
         margin-right: 0px;
-        justify-content: center;
 }
+
 }
 
