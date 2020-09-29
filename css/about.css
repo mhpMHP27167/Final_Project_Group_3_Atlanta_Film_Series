@@ -3,20 +3,19 @@
     font-size: 32px;
     text-align: left;
     margin-top: 7%;
-    /* padding-left: 20px; */
     color:  #2E2E3A;
 }
 
 .covid-text{
     color: white;
     font-size: 20px;
+    font-family: 'Mukta Mahee', sans-serif;
 }
 .covidRead{
-    font-family: 'Mukta Mahee', sans-serif;
-    font-size: 24px;
     color:  #FFFFFF !important;
     background-color: #8B2023;
     text-align: center;
+    padding:1%;
 }
 
 .hero-image-btn{
@@ -45,7 +44,7 @@
 }
 .heroText{
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     text-align:center;
 }
@@ -62,11 +61,11 @@
 
 .venueText{
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color:  #2E2E3A;
     background-color: #ffffff;
-    /* padding-left: 20px; */
 }
+
 .about{
     background-color: #2E2E3A;
 }
@@ -94,7 +93,7 @@
 
 .aboutText{
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom:20px;
     color: #ffffff;
     text-align:left;
@@ -121,16 +120,83 @@
     font-family: 'Playfair Display';
     font-size: 32px;
     color:#2E2E3A;
-    text-align: left;
-    margin-top: 7%;
+    text-align: center;
+    margin-top: 3%;
    
 }
 
 .card-text{
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color:#2E2E3A;
-    text-align: left;
+    text-align: center;
     margin-top: 3%;
     margin-bottom: 3%;
+}
+
+/* Media queries start here */
+@media only screen and (max-width: 850px) {
+
+
+    /* Start Mobile Page Styles */
+    .titleText{
+        font-family: 'Playfair Display',serif;
+        font-size: 24px;
+        text-align: left;
+        margin-top: 7%;
+        color:  #2E2E3A;
+    }
+
+    .heroTitle{
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        color: #ffffff;
+        margin-top: 7%;
+    }
+    .heroText{
+        font-family: 'Mukta Mahee', sans-serif;
+        font-size: 18px;
+        color: white;
+        text-align:center;
+    }
+    .venueText{
+        font-family: 'Mukta Mahee', sans-serif;
+        font-size: 18px;
+        color:  #2E2E3A;
+        background-color: #ffffff;
+    }
+    .aboutTitle{
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        text-align: left;
+        color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .aboutText{
+        font-family: 'Mukta Mahee', sans-serif;
+        font-size: 18px;
+        margin-bottom:20px;
+        color: #ffffff;
+        text-align:left;
+    }
+    .card-title{
+        font-family: 'Playfair Display';
+        font-size: 24px;
+        color:#2E2E3A;
+        text-align: center;
+        margin-top: 3%;
+       
+    }
+    
+    .card-text{
+        font-family: 'Mukta Mahee', sans-serif;
+        font-size: 18px;
+        color:#2E2E3A;
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
 }
