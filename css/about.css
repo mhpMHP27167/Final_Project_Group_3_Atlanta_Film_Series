@@ -1,14 +1,14 @@
 .titleText{
     font-family: 'Playfair Display';
-    font-size: 32px;
-    text-align: left;
+    font-size: 32pt;
+    text-align: center;
     margin-top: 7%;
     color:  #2E2E3A;
 }
 
 .covid-text{
     color: white;
-    font-size: 20px;
+    font-size: 16pt;
     font-family: 'Mukta Mahee', sans-serif;
 }
 .covidRead{
@@ -27,13 +27,13 @@
 .aboutImage{
     width: 100% !important;
     object-fit: cover;
-    max-height: 500px !important;
+    max-height: 425px!important;
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 .heroTitle{
     font-family: 'Playfair Display';
-    font-size: 32px;
+    font-size: 32pt;
     color: #ffffff;
     margin-top: 7%;
 }
@@ -44,9 +44,11 @@
 }
 .heroText{
     font-family: 'Mukta Mahee', sans-serif;
-    font-size: 20px;
+    font-size: 20pt;
+    font-weight: 100;
     color: white;
     text-align:center;
+    
 }
 
 
@@ -88,6 +90,10 @@
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 1.3rem;
     margin: 10px;
+}
+
+.aboutHero{
+    height: 500px;
 }
 
 .aboutTitle{

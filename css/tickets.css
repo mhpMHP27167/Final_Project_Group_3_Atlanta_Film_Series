@@ -9,7 +9,7 @@
 
 .hero-image-title{
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 32pt;
     color: white;
     position: absolute;
     /* margin-left: 37%; */
@@ -54,7 +54,7 @@
 .ticket-grid .card-ticket{
     font-family:  'Mukta Mahee', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 20pt;
     text-align: center;
 }
 
