@@ -1,6 +1,6 @@
 .titleText{
     font-family: 'Playfair Display';
-    font-size: 36px;
+    font-size: 32px;
     text-align: left;
     margin-top: 7%;
     /* padding-left: 20px; */
@@ -34,7 +34,7 @@
 }
 .heroTitle{
     font-family: 'Playfair Display';
-    font-size: 36px;
+    font-size: 32px;
     color: #ffffff;
     margin-top: 7%;
 }
@@ -85,7 +85,7 @@
 
 .aboutTitle{
     font-family: 'Playfair Display';
-    font-size: 36px;
+    font-size: 32px;
     text-align: left;
     color: #ffffff;
     padding-top: 20px;
@@ -119,7 +119,7 @@
 
 .card-title{
     font-family: 'Playfair Display';
-    font-size: 36px;
+    font-size: 32px;
     color:#2E2E3A;
     text-align: left;
     margin-top: 7%;
