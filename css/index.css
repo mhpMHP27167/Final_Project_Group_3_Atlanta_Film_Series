@@ -1,10 +1,6 @@
 
-.grid-image{
-    /* width: 90%; */
-    object-fit: cover;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    /* margin-left: 14%; */
+.row{
+    margin: 0px
 }
 
 .carousel-image{
@@ -12,6 +8,12 @@
     object-fit: cover;
     font-size: 80px;
     font-family: 'Playfair Display', serif;
+}
+
+.carousel-caption{
+    text-decoration: none;
+    font-family: 'Mukta Mahee', sans-serif;
+    color: white;
 }
 
 .main-title{
@@ -30,6 +32,16 @@
     margin-top: 7%;
 }
 
+#horror-homepage {
+    background-image: url(../images/zorik-d-1hqKq6uJjUM-unsplash.jpg);
+    background-size: cover;
+}
+
+#home-image{
+    background-image: url(../images/Screen\ Shot\ 2020-09-22\ at\ 11.40.38\ AM.png);
+    background-size: cover;
+    width: 100%;
+}
 .card-text{
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 12pt;
@@ -37,19 +49,21 @@
     margin-top: 7%;
 }
 
-.card-horror-hmpg{
-    position: absolute;
-    margin-top: 13%;
-    margin-left: 15%;
-}
 .card{
     border-color: transparent;
     border-radius: 0px;
 }
 
+.card-body{
+    background-color: white;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    height: auto;
+    margin: 15%;
+}
 .footer{
     background-color:#2E2E3A;
     padding: 50px;
+    width: 100%;
 }
 
 .footer-logo{
