@@ -51,7 +51,10 @@
     
 }
 
-
+.row-about {
+    width: 100%;
+    padding: 15px;
+}
 .mr-3{
     margin-left: 15px;
     height: 400px;
